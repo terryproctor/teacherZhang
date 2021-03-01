@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    width: 100vw;    
+}
+
+.backgroundHeader {
+    margin: 0;
+    height: 40vh;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+    filter:brightness(40%);
+}
+
+.taglines {
+    top: 7.5vh;
+    left: 12vw;
+    position: absolute;
+    z-index: 2;
+}
+
+.tagline {
+    color: #fff;
+    font-family: Pacifico, sans-serif;
+    font-weight: 200;
+}
+
+.edinburgh {
+    text-align: right;
+}
+
+.title {
+    text-align: center;
+    font-family: "B612 Mono";
+    color: rgb(252, 227, 227);
+   
+}
+
+.titleBar {
+    margin-bottom: none;
+    height: 80px;
+}
+
+header {
+    margin-top: 0;
+    margin-bottom: 5px;
+    background-color: rgb(3, 116, 145);
+    height: 80px;
+}
+
+.top {
+    margin-top: -1vh;
+    position: relative;
+
+}
+
+.grid {
+    display: grid;
+}
