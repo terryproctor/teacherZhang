@@ -5,7 +5,7 @@ body {
 
 .backgroundHeader {
     margin: 0;
-    height: 40vh;
+    height: 35vh;
     width: 100vw;
     position: relative;
     z-index: 0;
@@ -59,27 +59,53 @@ header {
     display: grid;
 }
 
-.smallPhoto {
-    height: 33vh;
-    
-}
+
 
 .grid {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-items: center;
+    align-items: center;
 }
 
+/* .smallPhoto {
+    width: 26vw;
+    padding: none;
+    align-self: stretch;
+} */
+
 .largePhoto {
-    height: 76vh;
+    height: auto;
+    width: 50vw;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 0;
+    grid-row-end: span 3;
+    align-self: start;
+ 
 }
 
 .aboutGist {
     font-family: Pacifico, sans-serif;
-
+    padding: 20px;
+    text-align: center;
+    color: rgb(8, 85, 104);
+    font-size: 30px;
 }
 
 .about {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:500;
     line-height: 1.2;
+    grid-column-start: 0;
+    grid-column-end: span 2;
+    padding: 25px;
+    align-self: start;
+}
+
+footer {
+    height: 40px;
+    background-color: rgba(18, 108, 131, 0.836);
 }
