@@ -65,7 +65,7 @@ header {
     width: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 0.5fr 1fr 2fr;
     justify-items: center;
     align-items: center;
 }
@@ -84,6 +84,7 @@ header {
     grid-row-start: 0;
     grid-row-end: span 3;
     align-self: start;
+    
  
 }
 
@@ -92,7 +93,8 @@ header {
     padding: 20px;
     text-align: center;
     color: rgb(8, 85, 104);
-    font-size: 30px;
+    font-size: 2rem;
+
 }
 
 .about {
@@ -103,6 +105,7 @@ header {
     grid-column-end: span 2;
     padding: 25px;
     align-self: start;
+    font-size: 1.2rem;
 }
 
 footer {
