@@ -33,12 +33,13 @@ body {
     text-align: center;
     font-family: "B612 Mono";
     color: rgb(252, 227, 227);
-   
+    margin: 0 auto;
 }
 
 .titleBar {
-    margin-bottom: none;
+    margin: 0 auto;
     height: 80px;
+    margin-bottom: none;
 }
 
 header {
@@ -51,9 +52,34 @@ header {
 .top {
     margin-top: -1vh;
     position: relative;
-
+    margin-bottom: 0;
 }
 
 .grid {
     display: grid;
+}
+
+.smallPhoto {
+    height: 33vh;
+    
+}
+
+.grid {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.largePhoto {
+    height: 76vh;
+}
+
+.aboutGist {
+    font-family: Pacifico, sans-serif;
+
+}
+
+.about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    line-height: 1.2;
 }
