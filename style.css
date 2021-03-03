@@ -86,7 +86,6 @@ header {
     grid-row-end: span 3;
     align-self: start;
     max-width: 450px;
- 
 }
 
 .aboutGist {
@@ -95,7 +94,6 @@ header {
     text-align: center;
     color: rgb(8, 85, 104);
     font-size: 2rem;
-
 }
 
 .about {
@@ -107,8 +105,7 @@ header {
     padding: 25px;
     margin-left: 5vw;
     align-self: start;
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem; 
 }
 
 footer {
@@ -122,7 +119,6 @@ footer {
     margin: 10px;
     text-align: center;
     line-height: 2;
-
 }
 
 form {
@@ -158,14 +154,12 @@ textarea {
     border: 1px rgba(18, 108, 131, .5) solid;
     border-radius: 8px;
     color:rgb(3, 116, 145);
-    
 }
 
 textarea:focus, input:focus {
     outline: rgb(3, 116, 145);
     background-color: rgba(3, 117, 145, 0.336)
 }
-
 
 input {
     border-top: 1px rgba(18, 108, 131, .5) solid;
