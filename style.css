@@ -115,3 +115,63 @@ footer {
     height: 40px;
     background-color: rgba(18, 108, 131, 0.836);
 }
+
+.contactSection {
+    display: block;
+    width: 95%;
+    margin: 10px;
+    text-align: center;
+    line-height: 2;
+
+}
+
+form {
+    margin: 10px;
+    justify-content: center;
+    padding: 3px;
+}
+
+form label {
+    margin: 5px 20px;
+}
+
+.contactSection {
+    min-width: 80%;
+    border: 1px solid rgba(18, 108, 131, 0.836);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Verdana
+}
+
+.contactUs {
+    text-align: left;
+    margin-left: 15vw;
+    font-size: 1.4rem;
+    margin: 0 0 0 15vw;
+    padding: 0;
+    height: 35px
+}
+
+textarea {
+    resize: none;
+    background-color: rgba(18, 108, 131, 0.10);
+    border: 1px rgba(18, 108, 131, .5) solid;
+    border-radius: 8px;
+    color:rgb(3, 116, 145);
+    
+}
+
+textarea:focus, input:focus {
+    outline: rgb(3, 116, 145);
+    background-color: rgba(3, 117, 145, 0.336)
+}
+
+
+input {
+    border-top: 1px rgba(18, 108, 131, .5) solid;
+    border-right: 1px rgba(18, 108, 131, .5) solid;
+    border-bottom: 1px rgba(18, 108, 131, .2) solid;
+    border-left: 1px rgba(18, 108, 131, .1) solid;
+    border-radius: 5px;
+    height: 1.2rem;
+}
