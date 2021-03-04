@@ -145,11 +145,14 @@ form label {
 }
 
 .contactSection {
-    min-width: 80%;
+    min-width: 50%;
+    max-width: 65%;
     border: 1px solid rgba(18, 108, 131, 0.836);
     border-radius: 10px;
     padding: 10px;
-    font-family: Verdana
+    font-family: Verdana;
+    line-height: 2;
+    margin: 10px auto;
 }
 
 .contactUs {
@@ -158,7 +161,8 @@ form label {
     font-size: 1.4rem;
     margin: 0 0 0 15vw;
     padding: 0;
-    height: 35px
+    height: 35px;
+    
 }
 
 textarea {
@@ -167,6 +171,7 @@ textarea {
     border: 1px rgba(18, 108, 131, .5) solid;
     border-radius: 8px;
     color:rgb(3, 116, 145);
+    width: 45vw;
 }
 
 textarea:focus, input:focus {
