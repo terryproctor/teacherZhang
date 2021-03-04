@@ -124,6 +124,7 @@ header {
 footer {
     height: 40px;
     background-color: rgba(18, 108, 131, 0.836);
+    margin-top: 10px;
 }
 
 .contactSection {
