@@ -188,3 +188,8 @@ input {
     border-radius: 5px;
     height: 1.2rem;
 }
+
+.submit {
+    border: rgba(18, 108, 131, .5);
+    background-color: rgb(203, 234, 238)
+}
